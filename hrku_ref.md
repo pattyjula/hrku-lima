@@ -1,15 +1,17 @@
-## create conda virtual env
+## create conda virtual env within GitBash
 `conda create -n blly_bio_env python=3.6`
 
 ## activate the environment you just created
 `source activate blly_bio_env`
 
+* Your app name will be in parenthesis
+
 ## Install dependencies
-`pip install gunicorn`
-`pip install psycopg2`
-`pip install flask`
-`pip install flask-sqlalchemy`
-`pip install pandas`
+* `pip install gunicorn`
+* `pip install psycopg2`
+* `pip install flask`
+* `pip install flask-sqlalchemy`
+* `pip install pandas`
 
 ## Initialize the database
 `python initdb.py`
