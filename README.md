@@ -24,7 +24,7 @@ The contents of this repository do not represent the best or only way to deploy 
 ## Initialize the database
 `python initdb.py`
 
-* Very important, note presence of init file (here)[https://github.com/pattyjula/hrku-lima/blob/master/belly-prj/bellybutton/__init__.py]
+* Very important, note presence of init file (here)[https://github.com/pattyjula/hrku-lima/blob/master/belly-prj/bellybutton/]
 ## Run the app
 `FLASK_APP=bellybutton/app.py flask run`
 
