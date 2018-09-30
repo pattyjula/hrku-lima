@@ -1,9 +1,9 @@
-# hrku-lima
-Create flask app and deploy to Heroku [site](https://boiling-beach-89163.herokuapp.com/)
+# Quick Summary
+Create a Flask app and deploy to Heroku: [deployed site](https://boiling-beach-89163.herokuapp.com/)
 
-# Introduction
+# Slightly Longer Introduction
 
-The contents of this repository do not represent the best or only way to deploy a Flask application on Heroku. It is recommend you clone the repository and follow the steps exactly as described. After that, it is recommended you take what you learned from this deployment and apply it to your own Flask application. 
+The contents of this repository allow developers to deploy the provided Flask app to Heroku. This repository does not represent the best or only way to deploy a Flask application on Heroku. It is recommend you clone the repository and follow the steps exactly as described. After that, it is recommended you take what you learned from this deployment and apply it to your own Flask application. Take note of the use of gunicorn and the importance of initializing your database.
 
 ## create conda virtual env within GitBash
 ### Note, the virtual environment in this example is `blly_bio_env` you can set another name as you wish
