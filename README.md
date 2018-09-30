@@ -38,7 +38,7 @@ The contents of this repository do not represent the best or only way to deploy 
 * Log into Heroku website and create an app, click deploy
 ** Alternatively you can run command to create app
 * Scroll down to section "Deploy Using Heroku Git"
-[Image for Heroku Git steps](https://github.com/pattyjula/hrku-garbanzo/blob/master/Capture.PNG)
+[Image for Heroku Git steps](https://github.com/pattyjula/hrku-garbanzo/blob/master/imgs/Capture.PNG)
 * Follow steps within Bash to deploy
 
 https://boiling-beach-89163.herokuapp.com/
