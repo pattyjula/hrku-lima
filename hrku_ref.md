@@ -1,10 +1,11 @@
 ## create conda virtual env within GitBash
+### Note, the virtual environment in this example is `blly_bio_env` you can set another name as you wish
 `conda create -n blly_bio_env python=3.6`
 
 ## activate the environment you just created
 `source activate blly_bio_env`
 
-* Your app name will be in parenthesis
+* Your app name will be in parenthesis at this point within Bash
 
 ## Install dependencies
 * `pip install gunicorn`
