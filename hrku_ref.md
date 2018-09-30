@@ -1,3 +1,7 @@
+# Introduction
+
+The contents of this repository do not represent the best or only way to deploy a Flask application on Heroku. It is recommend you clone the repository and follow the steps exactly as described. After that, it is recommended you apply what you learn from this deployment and apply it to your own Flask application. 
+
 ## create conda virtual env within GitBash
 ### Note, the virtual environment in this example is `blly_bio_env` you can set another name as you wish
 `conda create -n blly_bio_env python=3.6`
@@ -27,7 +31,9 @@
 `web: gunicorn bellybutton.app:app`
 
 ## Finally
-* Create a Heroku app, click deploy
+* Log into Heroku, from Command Line on Windows with `heroku login`
+* Log into Heroku website and create an app, click deploy
+** Alternatively you can run command to create app
 * Scroll down to section "Deploy Using Heroku Git"
 [Image for Heroku Git steps](https://github.com/pattyjula/hrku-garbanzo/blob/master/Capture.PNG)
 * Follow steps within Bash to deploy
