@@ -44,6 +44,8 @@ The contents of this repository allow developers to deploy the provided Flask ap
 
 https://boiling-beach-89163.herokuapp.com/
 
+## Acknowledgment
+Thank you [Trilogy Education](https://www.trilogyed.com/) for the Plotly JS content.
 
 
 
